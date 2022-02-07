@@ -1,0 +1,13 @@
+{
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "editor.roundedSelection": true,
+  "editor.colorDecorators": true,
+  "editor.smoothScrolling": true,
+  "editor.snippetSuggestions": "bottom",
+  "editor.trimAutoWhitespace": true,
+  "diffEditor.renderSideBySide": true,
+  "editor.lightbulb.enabled": true,
+  "editor.acceptSuggestionOnEnter": "on"
+}
