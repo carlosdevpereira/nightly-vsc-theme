@@ -35,7 +35,7 @@
     "sideBar.dropBackground": "#2d455f62",
     "sideBarSectionHeader.border": "#192735",
 
-    "list.hoverBackground": "#1b2d41",
+    "list.hoverBackground": "#00bc992e",
     "list.dropBackground": "#2d455f62",
     "list.activeSelectionBackground": "#1b2d41",
     "list.activeSelectionForeground": "#00bc99",
@@ -99,6 +99,7 @@
     "editor.background": "#162536",
     "editor.foreground": "#a1a9b7",
     "editor.foldBackground": "#1b2d41",
+    "editor.wordHighlightBorder": "#00bc99af",
     "foreground": "#aaa",
     "focusBorder": "#333F4A",
     "errorForeground": "#e27e8d",
@@ -115,12 +116,20 @@
 
     "editor.lineHighlightBackground": "#1b2d41",
     "editor.lineHighlightBorder": "#4d5b6a",
-    "editor.wordHighlightBackground": "#1b2d41",
+    "editor.wordHighlightBackground": "#00bc9920",
 
     "editorWhitespace.foreground": "#1b2d41",
 
     "editorBracketMatch.background": "#00bc9921",
     "editorBracketMatch.border": "#00bc991e",
+
+    "editorBracketHighlight.foreground1": "#00bc99a1",
+    "editorBracketHighlight.foreground2": "#00bc99b6",
+    "editorBracketHighlight.foreground3": "#00bc99b6",
+    "editorBracketHighlight.foreground4": "#00bc99b6",
+    "editorBracketHighlight.foreground5": "#00bc99b6",
+    "editorBracketHighlight.foreground6": "#00bc99b6",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#db6165",
 
     "editor.findMatchBackground": "#0c947b",
     "editor.findMatchHighlightBackground": "#0c947b10",
@@ -167,7 +176,7 @@
     "statusBar.border": "#182431",
     "statusBar.noFolderBackground": "#171d23",
     "statusBar.noFolderForeground": "#aaa",
-    "statusBarItem.activeBackground": "#5ec4ff",
+    "statusBarItem.activeBackground": "#00bc99af",
     "statusBarItem.hoverBackground": "#333F4A",
     "statusBarItem.prominentBackground": "#171d23",
     "statusBarItem.prominentHoverBackground": "#333F4A",
@@ -175,7 +184,10 @@
     "statusBar.debuggingForeground": "#d9dbe0",
 
     // Others
-    "contrastBorder": "#141e29"
+    "contrastBorder": "#141e29",
+
+    "notifications.background": "#00bc9920",
+    "notificationCenterHeader.background": "#00bc9920"
   },
   "tokenColors": [
     {
@@ -214,7 +226,7 @@
         "comment.block.documentation source"
       ],
       "settings": {
-        "foreground": "#464b52",
+        "foreground": "#676f7c",
         "fontStyle": "italic"
       }
     },
@@ -412,6 +424,13 @@
       ],
       "settings": {
         "foreground": "#bbbbbb60"
+      }
+    },
+    {
+      "scope": ["begin.bracket", "end.bracket"],
+      "settings": {
+        "foreground": "#f5f5f5",
+        "fontStyle": "bold"
       }
     },
     {
