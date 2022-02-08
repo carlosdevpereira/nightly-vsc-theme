@@ -2,7 +2,7 @@
     "name": "nightly-vsc-theme",
     "displayName": "Nightly (vsc-theme)",
     "description": "Nightly theme for visual studio code editor",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "theme",
         "dark",

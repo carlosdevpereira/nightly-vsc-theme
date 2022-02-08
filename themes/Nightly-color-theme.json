@@ -2,8 +2,18 @@
   "name": "Nightly Color Theme",
   "type": "dark",
   "colors": {
+    // Title Bar
+    "titleBar.activeBackground": "#141e29",
+    "titleBar.inactiveBackground": "#141e29",
+    "titleBar.activeForeground": "#ffffff65",
+    "titleBar.inactiveForeground": "#ffffff65",
+
     // Welcome Page
     "welcomePage.background": "#141e29",
+    "welcomePage.progress.background": "#0b1016",
+    "welcomePage.tileBackground": "#0b1016",
+    "welcomePage.progress.foreground": "#00bc99",
+    "welcomePage.tileHoverBackground": "#131a23",
 
     // Activity bar (vscode icons)
     "activityBar.background": "#141e29",
@@ -141,8 +151,9 @@
     "editorSuggestWidget.selectedBackground": "#1D252C",
     "editorWarning.border": "#ffffff00",
     "editorWarning.foreground": "#ebbf83",
-    "editorWidget.background": "#2d1515",
-    "editorWidget.border": "#333F4A",
+    "editorWidget.background": "#162536",
+    "editorWidget.border": "#00bc99",
+    "editorWidget.foreground": "#ffffff65",
 
     // Scrollbars
     "scrollbar.shadow": "#00000000",
