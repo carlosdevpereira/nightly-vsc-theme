@@ -1,6 +1,6 @@
 {
-    "name": "nightly-theme",
-    "displayName": "Nightly - Theme",
+    "name": "nightly-vsc-theme",
+    "displayName": "Nightly (vsc-theme)",
     "description": "Nightly theme for visual studio code editor",
     "version": "1.0.0",
     "keywords": [
@@ -9,7 +9,7 @@
         "night"
     ],
     "author": "carlosdevpereira",
-    "publisher": "carlosdevpereira",
+    "publisher": "carlos-dev-pereira",
     "repository": {
         "type": "git",
         "url": "https://github.com/carlosdevpereira/nightly-vsc-theme"
@@ -23,7 +23,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Nightly",
+                "label": "Nightly (vsc-theme)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Nightly-color-theme.json"
             }
